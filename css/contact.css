@@ -6,7 +6,7 @@
 
 body {
     background-color: #F7F3E3;
-    color: #8b7059;
+    color: #2B2118;
     font-family: Playfair Display, Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -148,6 +148,7 @@ button {
     margin: auto;
     font-family: Inter;
     margin-top: 20px;
+    box-shadow: 1px 1px 1px #2B2118;
 }
 
 button:hover, button:focus {

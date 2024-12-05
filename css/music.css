@@ -63,17 +63,17 @@ li .nav-a:hover::after, li .nav-a focus::after{
     transform: scale(1);
 }
 
-
 h1 {
     padding: 1em;
     background-color: #DB8A74;
     text-align: center;
+    width: 103%;
 }
 
 .album-container {
     display: grid;
-    grid-template-rows: 5% 40% 10% 8% 25% 25% 10%;
-    grid-template-columns: 50% 50%;
+    grid-template-rows: 5% 30% 10% 8% 25% 25% 10%;
+    grid-template-columns: 49% 49%;
     gap: 1em;
 }
 
@@ -84,10 +84,10 @@ h1 {
 
 img {
     width: 90%;
-    height: 85%;
+    height: 80%;
     grid-row: 2/3;
     border-radius: 10px;
-    margin: 10% auto 5% auto;
+    margin: 10% auto 0 auto;
 }
 
 img:hover, img:focus {
@@ -109,7 +109,7 @@ img:hover, img:focus {
     color: #2B2118;
     text-decoration: none;
     transition: 0.5s;
-    box-shadow: 5px 5px 5px #2B2118;
+    box-shadow: 3px 3px 3px #2B2118;
 }
 
 .button-2 {
@@ -126,7 +126,7 @@ img:hover, img:focus {
     color: #2B2118;
     text-decoration: none;
     transition: 0.5s;
-    box-shadow: 5px 5px 5px #2B2118;
+    box-shadow: 3px 3px 3px #2B2118;
 }
 
 .button-1:hover, .button-1:focus, .button-2:hover, .button-2:focus {
@@ -148,7 +148,7 @@ img:hover, img:focus {
     color: #F7F3E3;
     text-decoration: none;
     transition: 0.3s;
-    box-shadow: 5px 5px 5px #2B2118;
+    box-shadow: 3px 3px 3px #2B2118;
 }
 
 .ticket-2 {
@@ -164,7 +164,7 @@ img:hover, img:focus {
     color: #F7F3E3;
     text-decoration: none;
     transition: 0.3s;
-    box-shadow: 5px 5px 5px #2B2118;
+    box-shadow: 3px 3px 3px #2B2118;
 }
 
 .ticket-1:hover, .ticket-1:focus, .ticket-2:hover, .ticket-2:focus {
@@ -193,11 +193,11 @@ img:hover, img:focus {
 }
 
 .footer {
-    width: 100%;
+    width: 101%;
     background-color: #6F1A07;
     color: #F7F3E3;
     padding: 2%;
-    grid-row: 7/8;
+    grid-row: 7/9;
     grid-column: 1/3;
     padding: 3%;
 }
@@ -207,6 +207,5 @@ img:hover, img:focus {
     font-size: 80%;
     border-left: 2px solid #F7F3E3;
     padding-left: 5%;
-    grid-column: 1/3;
     margin-left: 5%;
 }
