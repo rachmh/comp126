@@ -209,7 +209,6 @@ img:hover, img:focus {
     padding-left: 5%;
     margin-left: 5%;
     border-radius: 5px;
-
 }
 
 @media screen and (min-width: 800px) {
@@ -263,4 +262,3 @@ img:hover, img:focus {
         max-width: 30%;
     }
     }
-
