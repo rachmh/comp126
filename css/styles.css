@@ -107,3 +107,23 @@ h1 {
     padding-left: 5%;
     margin-left: 5%;
 }
+
+@media screen and (min-width: 800px) {
+    .home-container {
+       flex-direction: column;
+    }
+
+    .home-container > img {
+        max-width: 45%;
+        height: 300px;
+        margin: 50px;
+        align-self: flex-start;
+
+    }
+
+    .nav-bar {
+        margin: 0 0 20px auto;
+        max-width: 30%;
+        border-radius: 0 0 0 10px;
+    }
+}
